@@ -29,6 +29,7 @@ kotlin {
         commonMain.dependencies {
             implementation(libs.common.ktor.core)
             implementation(libs.common.ktor.encoding)
+            implementation(libs.common.ktor.content)
             implementation(libs.common.ktor.json)
             implementation(libs.common.ktor.logging)
             implementation(compose.ui)
